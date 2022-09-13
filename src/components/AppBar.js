@@ -12,10 +12,8 @@ function Appbar(){
         <AppBar position='static'>
             <Toolbar>
                 <Typography
-                    noWrap
-                    component="div"
-                    sx={{mr: 2, display: {xs: "none", md: "flex"}}}>
-                        <img src={Logo} style={{width: 40, height: 40}} alt="Logo"></img>
+                    sx={{ml: 2, mt: 2, mb: 1}}>
+                        <img src={Logo} style={{width: 100, height: 100}} alt="Logo"></img>
                 </Typography>
             </Toolbar>
         </AppBar>
